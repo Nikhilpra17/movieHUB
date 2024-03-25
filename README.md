@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used
 
-## Available Scripts
+- **useState and useEffect Hooks:** React's useState and useEffect hooks are utilized for managing component state and side effects respectively. They enable the dynamic rendering of content based on changes in state and facilitate the fetching of data from external APIs.
 
-In the project directory, you can run:
+- **Axios:** Axios is used for making HTTP requests to the REST API. It simplifies the process of fetching data and handling responses asynchronously.
 
-### `npm start`
+- **CSS:** CSS is employed for styling the user interface, including layout, color schemes, typography, and animations. Advanced CSS techniques such as flexbox and grid layout are utilized to create responsive designs and enhance visual appeal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Bootstrap:** Although not explicitly used in the provided code, Bootstrap is mentioned as one of the CSS frameworks that could be utilized for responsiveness. However, the provided code demonstrates custom CSS for styling purposes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Functionality
 
-### `npm test`
+- **Dynamic Movie Search:** The application allows users to search for movies dynamically by making requests to the OMDB API based on the user's input. As the user types in the search query, the application fetches relevant movie data and displays it in real-time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Movie Details:** Upon selecting a movie from the search results, detailed information about the selected movie is displayed, including its title, year of release, runtime, IMDb rating, plot summary, cast, director, and genre.
 
-### `npm run build`
+- **Watched List Management:** Users can add movies to a watched list, which persists throughout the session. The watched list displays summary statistics such as the number of watched movies, average IMDb rating, average user rating, and average runtime.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design:** The application is designed to be fully responsive, ensuring optimal user experience across various devices and screen sizes. Media queries and advanced CSS techniques are employed to adapt the layout and styling accordingly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## API Integration
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application integrates with the OMDB API (Open Movie Database) to fetch movie data dynamically. The API key is provided as a constant (`KEY`) in the code, and requests are made to the API endpoint using Axios. The fetched data is then processed and displayed to the user in an organized manner.
 
-### `npm run eject`
+## Advanced CSS Techniques
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Flexbox:** Flexbox layout is utilized for creating flexible and responsive container layouts, allowing for easy alignment and distribution of elements within the application's UI.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Grid Layout:** CSS grid layout is used for structuring the main layout of the application, providing a grid-based structure for organizing content and achieving responsive design.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Custom Styling:** Custom CSS is employed for styling various UI components, including navigation bar, search input, movie cards, movie details, and watched list summary. Styling choices are made to enhance visual appeal and ensure consistency throughout the application.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, the project demonstrates proficiency in building modern, responsive web applications using React.js, integrating with external REST APIs, and employing advanced CSS techniques for effective UI design and user experience.
